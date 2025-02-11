@@ -1,0 +1,17 @@
+{
+    "name": "CustomLED",
+    "version": "1.0.0",
+    "description": "A simple LED blinking library",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/CustomLED.git"
+    },
+    "authors": [
+        {
+            "name": "Madhan",
+            "email": "mkinventions100@gmail.com"
+        }
+    ],
+    "frameworks": "arduino",
+    "platforms": "*"
+}
