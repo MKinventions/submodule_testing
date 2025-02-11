@@ -11,3 +11,7 @@ BUTTON::BUTTON(int pin) {
 //     digitalWrite(ledPin, LOW);
 //     delay(delayTime);
 // }
+
+int BUTTON::push(){
+    return !digitalRead(btnPin);
+}

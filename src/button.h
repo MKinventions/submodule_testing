@@ -6,7 +6,7 @@
 class BUTTON {
 public:
     BUTTON(int pin);
-    // void blink(int delayTime);
+    int push();
 private:
     int btnPin;
 };
