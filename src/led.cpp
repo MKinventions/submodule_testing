@@ -1,11 +1,11 @@
-#include "CustomLED.h"
+#include "led.h"
 
-CustomLED::CustomLED(int pin) {
+LED::LED(int pin) {
     ledPin = pin;
     pinMode(ledPin, OUTPUT);
 }
 
-void CustomLED::blink(int delayTime) {
+void LED::blink(int delayTime) {
     digitalWrite(ledPin, HIGH);
     delay(delayTime);
     digitalWrite(ledPin, LOW);

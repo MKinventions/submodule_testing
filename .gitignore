@@ -1,6 +1,20 @@
-*.o
-*.d
-*.a
+# Ignore build directories
+.pio/
+build/
+
+# Ignore compiled binary files
 *.bin
 *.elf
 *.hex
+*.o
+*.d
+*.a
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore libraries installed locally
+lib/*
+
+# But keep Git submodules
+!lib/.git

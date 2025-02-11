@@ -1,10 +1,10 @@
 {
-    "name": "CustomLED",
+    "name": "LED",
     "version": "1.0.0",
     "description": "A simple LED blinking library",
     "repository": {
         "type": "git",
-        "url": "https://github.com/yourusername/CustomLED.git"
+        "url": "https://github.com/MKinventions/submodule_testing.git"
     },
     "authors": [
         {

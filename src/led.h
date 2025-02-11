@@ -1,11 +1,11 @@
-#ifndef CUSTOM_LED_H
-#define CUSTOM_LED_H
+#ifndef LED_H
+#define LED_H
 
 #include <Arduino.h>
 
-class CustomLED {
+class LED {
 public:
-    CustomLED(int pin);
+    LED(int pin);
     void blink(int delayTime);
 private:
     int ledPin;
